@@ -1,15 +1,23 @@
-# Health-Report-Summerizer-Extract-Key-Information
-This project aims to summarize patient medical reports by extracting key information from PDF documents using Optical Character Recognition (OCR) and text processing techniques. The system enhances the extracted data using custom preprocessing pipelines to generate a structured and readable summary.
+# Health Report Summarizer - Extract Key Information
 
-Features
-OCR-based Text Extraction: Utilizes Pytesseract to extract text from scanned PDF documents.
-Preprocessing Pipeline: Custom preprocessing steps to clean and structure the extracted data.
-Structured Summary Generation: Converts the extracted and processed data into a concise summary.
-User Interface: A simple web interface built using Streamlit to upload PDFs and display results.
-Tools and Technologies
-Python: Programming language used for implementation.
-Pytesseract: Python wrapper for Google's Tesseract-OCR to extract text from scanned images in PDFs.
-PDF2Image: Converts PDF pages into images for OCR processing.
-OpenCV: Image processing techniques for improving OCR accuracy.
-Pandas: Data manipulation and structuring the extracted data.
-Streamlit: Used to create the user interface for easy deployment and interaction.
+This project aims to **summarize patient medical reports** by extracting key information from PDF documents using **Optical Character Recognition (OCR)** and text processing techniques.  
+The system enhances extracted data through **custom preprocessing pipelines**, generating a structured and readable summary for better healthcare insights.
+
+
+
+## Features
+- **OCR-based Text Extraction**: Extracts text from scanned PDF documents using Pytesseract.  
+- **Preprocessing Pipeline**: Cleans and structures extracted text using custom preprocessing steps.  
+- **Structured Summary Generation**: Converts processed data into a concise and readable summary.  
+- **Interactive User Interface**: Streamlit-based interface for uploading PDFs and viewing summarized results.  
+
+
+##  Tools & Technologies
+- **Programming Language**: Python  
+- **OCR Engine**: Pytesseract (Python wrapper for Tesseract OCR)  
+- **PDF Processing**: PDF2Image (convert PDF pages into images for OCR)  
+- **Image Processing**: OpenCV (improve OCR accuracy)  
+- **Data Handling**: Pandas (manipulation and structuring of extracted text)  
+- **Deployment & UI**: Streamlit (web-based user interface)  
+
+
